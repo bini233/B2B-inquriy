@@ -130,7 +130,7 @@
 
     <div class="contact-grid">
       <!-- Netlify Form -->
-      <form name="b2b-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <form name="b2b-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html">
         <input type="hidden" name="form-name" value="b2b-contact" />
         <p style="display:none;"><label>채우지 마세요: <input name="bot-field" /></label></p>
 
@@ -154,13 +154,13 @@
           <label class="main-label">Product Category <span class="hint">관심 상품군 (복수 선택 가능)</span></label>
           <div class="checkbox-group">
             <label class="check-label">
-              <input type="checkbox" name="category[]" value="Signature Scent"> Signature Scent
+              <input type="checkbox" name="category" value="Signature Scent"> Signature Scent
             </label>
             <label class="check-label">
-              <input type="checkbox" name="category[]" value="Bedding"> Bedding
+              <input type="checkbox" name="category" value="Bedding"> Bedding
             </label>
             <label class="check-label">
-              <input type="checkbox" name="category[]" value="Bathwear"> Bathwear
+              <input type="checkbox" name="category" value="Bathwear"> Bathwear
             </label>
           </div>
         </div>
