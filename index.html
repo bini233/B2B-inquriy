@@ -71,6 +71,11 @@
 
   /* Product Card */
   .pcard { display: flex; flex-direction: column; }
+  /* Bedding 섹션만 상품 구성 줄을 하단 정렬 */
+  #bedding .product-grid { align-items: stretch; }
+  #bedding .pcard { height: 100%; }
+  #bedding .pcard-info { display: flex; flex-direction: column; flex: 1; }
+  #bedding .pcard-info .compo-text { margin-top: auto; padding-top: 14px; }
   .pcard-img { 
     aspect-ratio: 4/3; background: var(--oatmeal); border-radius: 14px;
     display: flex; align-items: center; justify-content: center;
