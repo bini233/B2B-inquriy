@@ -72,12 +72,12 @@
   /* Product Card */
   .pcard { display: flex; flex-direction: column; }
   .pcard-img { 
-    width:100%; height:100%; object-fit:cover; border-radius:14px;
     aspect-ratio: 4/3; background: var(--oatmeal); border-radius: 14px;
     display: flex; align-items: center; justify-content: center;
     color: var(--gray); font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 20px; overflow: hidden;
   }
+  .pcard-img img { width:100%; height:100%; object-fit:cover; display:block; }
   .pcard-name { font-size: 19px; font-weight: 600; letter-spacing: -.01em; margin-bottom: 12px; }
   
   /* Pricing */
@@ -306,7 +306,7 @@
       </div>
 
       <div class="pcard">
-        <div class="pcard-img"><img src="images/bathtowel.jpg" alt="배스 타월"></div>
+        <div class="pcard-img"><img src="images/bathtowel.jpg" alt="배스 타월 2개입 세트"></div>
         <div class="pcard-info">
           <div class="pcard-name">배스 타월 2개입 세트</div>
           <div class="price-caption">판매가 (VAT 포함가)</div>
@@ -316,7 +316,7 @@
       </div>
 
       <div class="pcard">
-        <div class="pcard-img"><img src="images/facetowel.jpg" alt="페이스 타월"></div>
+        <div class="pcard-img"><img src="images/facetowel.jpg" alt="페이스 타월 3개입 세트"></div>
         <div class="pcard-info">
           <div class="pcard-name">페이스 타월 3개입 세트</div>
           <div class="price-caption">판매가 (VAT 포함가)</div>
@@ -371,7 +371,7 @@
       </div>
 
       <div class="pcard">
-        <div class="pcard-img"><img src="images/cnadle.jpg" alt="캔들"></div>
+        <div class="pcard-img"><img src="images/candle.jpg" alt="캔들"></div>
         <div class="pcard-info">
           <div class="pcard-name">캔들</div>
           <div class="price-caption">판매가 (VAT 포함가)</div>
