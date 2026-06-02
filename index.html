@@ -72,6 +72,7 @@
   /* Product Card */
   .pcard { display: flex; flex-direction: column; }
   .pcard-img { 
+    width:100%; height:100%; object-fit:cover; border-radius:14px;
     aspect-ratio: 4/3; background: var(--oatmeal); border-radius: 14px;
     display: flex; align-items: center; justify-content: center;
     color: var(--gray); font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
@@ -146,7 +147,7 @@
 
 <header>
   <nav class="nav">
-    <div class="logo"><a href="index.html"><img src="images/logo.png" alt="PARNAS Hotel Collection"></a></div>
+    <div class="logo"><a href="index.html"><img src="images/logo.svg" alt="PARNAS Hotel Collection"></a></div>
     <ul class="nav-links">
       <li><a href="#bedding">Bedding</a></li>
       <li><a href="#bathwear">Bathwear</a></li>
@@ -160,7 +161,7 @@
 <section class="hero">
   <div class="hero-img"></div>
   <div class="hero-meta">
-    <img class="brand-logo-img" src="images/logo.png" alt="PARNAS Hotel Collection">
+    <img class="brand-logo-img" src="images/logo.svg" alt="PARNAS Hotel Collection">
     <div class="brand-tag">제휴 문의를 남겨주시면 기업 전용 우대가로 안내해 드립니다.</div>
     <div class="hero-actions">
       <a href="contact.html" class="btn-dark">Contact Us &nbsp;&rsaquo;&rsaquo;</a>
@@ -201,7 +202,7 @@
     <!-- 2열 그리드 (이불 세트, 베개 세트) -->
     <div class="product-grid grid-2">
       <div class="pcard">
-        <div class="pcard-img">Product Image</div>
+        <div class="pcard-img"><img src="images/duvetset.jpg" alt="구스다운 이불 세트"></div>
         <div class="pcard-info">
           <div class="pcard-name">구스다운 이불 세트</div>
           <div class="price-block">
@@ -217,7 +218,7 @@
       </div>
 
       <div class="pcard">
-        <div class="pcard-img">Product Image</div>
+        <div class="pcard-img"><img src="images/pillowset.jpg" alt="구스다운 베개 세트"></div>
         <div class="pcard-info">
           <div class="pcard-name">구스다운 베개 세트</div>
           <div class="price-block">
@@ -235,7 +236,7 @@
     <!-- 3열 그리드 (커버, 시트류) -->
     <div class="product-grid grid-3">
       <div class="pcard">
-        <div class="pcard-img">Product Image</div>
+        <div class="pcard-img"><img src="images/duvetcover.jpg" alt="이불 커버"></div>
         <div class="pcard-info">
           <div class="pcard-name">이불 커버</div>
           <div class="price-block">
@@ -252,7 +253,7 @@
 
 
       <div class="pcard">
-        <div class="pcard-img">Product Image</div>
+        <div class="pcard-img"><img src="images/pillowcover.jpg" alt="베개 커버"></div>
         <div class="pcard-info">
           <div class="pcard-name">베개 커버</div>
           <div class="price-block">
@@ -268,7 +269,7 @@
 
 
       <div class="pcard">
-        <div class="pcard-img">Product Image</div>
+        <div class="pcard-img"><img src="images/bedsheet.jpg" alt="베드 시트"></div>
         <div class="pcard-info">
           <div class="pcard-name">베드 시트</div>
           <div class="price-block">
@@ -295,7 +296,7 @@
 
     <div class="product-grid grid-3">
       <div class="pcard">
-        <div class="pcard-img">Product Image</div>
+        <div class="pcard-img"><img src="images/bathrobe.jpg" alt="배스로브"></div>
         <div class="pcard-info">
           <div class="pcard-name">배스로브</div>
           <div class="price-caption">판매가 (VAT 포함가)</div>
@@ -305,7 +306,7 @@
       </div>
 
       <div class="pcard">
-        <div class="pcard-img">Product Image</div>
+        <div class="pcard-img"><img src="images/bathtowel.jpg" alt="배스 타월"></div>
         <div class="pcard-info">
           <div class="pcard-name">배스 타월 2개입 세트</div>
           <div class="price-caption">판매가 (VAT 포함가)</div>
@@ -315,7 +316,7 @@
       </div>
 
       <div class="pcard">
-        <div class="pcard-img">Product Image</div>
+        <div class="pcard-img"><img src="images/facetowel.jpg" alt="페이스 타월"></div>
         <div class="pcard-info">
           <div class="pcard-name">페이스 타월 3개입 세트</div>
           <div class="price-caption">판매가 (VAT 포함가)</div>
@@ -360,7 +361,7 @@
     <!-- Scent Products -->
     <div class="product-grid grid-3">
       <div class="pcard">
-        <div class="pcard-img">Product Image</div>
+        <div class="pcard-img"><img src="images/diffuser.jpg" alt="디퓨저"></div>
         <div class="pcard-info">
           <div class="pcard-name">디퓨저</div>
           <div class="price-caption">판매가 (VAT 포함가)</div>
@@ -370,7 +371,7 @@
       </div>
 
       <div class="pcard">
-        <div class="pcard-img">Product Image</div>
+        <div class="pcard-img"><img src="images/cnadle.jpg" alt="캔들"></div>
         <div class="pcard-info">
           <div class="pcard-name">캔들</div>
           <div class="price-caption">판매가 (VAT 포함가)</div>
@@ -380,7 +381,7 @@
       </div>
 
       <div class="pcard">
-        <div class="pcard-img">Product Image</div>
+        <div class="pcard-img"><img src="images/roomspray.jpg" alt="룸 스프레이"></div>
         <div class="pcard-info">
           <div class="pcard-name">룸 스프레이</div>
           <div class="price-caption">판매가 (VAT 포함가)</div>
@@ -421,7 +422,7 @@
 <footer>
   <div class="container">
     <div class="foot-top">
-      <div class="foot-logo"><img src="images/logo.png" alt="PARNAS Hotel Collection"></div>
+      <div class="foot-logo"><img src="images/logo.svg" alt="PARNAS Hotel Collection"></div>
     </div>
     <p class="foot-desc">파르나스호텔의 독보적인 가치를 담은 감각적인 제품을 일상에서도 누려 보세요.</p>
     <div class="foot-bottom">
