@@ -35,6 +35,7 @@
   .nav-links a:hover{opacity:1;}
 
   /* Hero split */
+  .mo-br { display: none; }
   .hero{display:grid;grid-template-columns:1fr 1fr;min-height:62vh;}
   .hero-img{background:var(--oatmeal-deep) center/cover no-repeat;
     background-image:url('images/phc-boutique.jpg');
@@ -147,6 +148,7 @@
     .prod-section,.intro,.git{padding-left:0;padding-right:0;}
     .nav-links{gap:16px;}
     .brand-tag { font-size: 14px; margin-top: 16px; }
+    .mo-br { display: block; }
   }
 </style>
 </head>
@@ -169,7 +171,7 @@
   <div class="hero-img"></div>
   <div class="hero-meta">
     <img class="brand-logo-img" src="images/logo.png" alt="PARNAS Hotel Collection">
-    <div class="brand-tag">제휴 문의를 남겨주시면 기업 전용 우대가로 안내해 드립니다.</div>
+    <div class="brand-tag">제휴 문의를 남겨주시면 <br class="mo-br"> 기업 전용 우대가로 안내해 드립니다.</div>
     <div class="hero-actions">
       <a href="contact.html" class="btn-dark">Contact &nbsp;&rsaquo;&rsaquo;</a>
       <a href="#bedding" class="link-underline">상품 상세 보기</a>
